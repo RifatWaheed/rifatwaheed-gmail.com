@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">test</string>
+
+    <string name="first_question">Which one of these is the correct molecular formula of salt?</string>
+    <string name="second_question"> The International Literacy Day is observed on</string>
+    <string name="third_question">"Good Friday" is observed to commemorate the event of</string>
+    <string name="fourth_question">Which Bangladeshi cricketer has the most runs in test cricket</string>
+    <string name="fifth_question">Who,in 1978 was the 1st person to be born in the continent Antarctica</string>
+</resources>

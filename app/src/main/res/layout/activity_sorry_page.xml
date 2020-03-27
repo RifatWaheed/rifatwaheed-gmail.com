@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimaryDark">
+
+        <AbsoluteLayout
+            android:layout_width="411dp"
+            android:layout_height="479dp"
+            android:layout_x="0dp"
+            android:layout_y="58dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_x="84dp"
+                android:layout_y="125dp"
+
+                android:gravity="left"
+                android:text="WRONG ANSWER"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="49dp"
+                android:layout_x="289dp"
+                android:layout_y="125dp"
+
+                android:gravity="left"
+                android:text="!!!"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="100dp"
+                android:layout_y="205dp"
+
+                android:gravity="left"
+                android:text="You have lost the game"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="114dp"
+                android:layout_y="266dp"
+
+                android:gravity="left"
+                android:text="Better luck next time"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="59dp"
+                android:layout_height="44dp"
+                android:layout_x="177dp"
+                android:layout_y="313dp"
+                android:src="@drawable/thumbsup2"
+
+                />
+
+
+        </AbsoluteLayout>
+
+    </AbsoluteLayout>
+
+
+</AbsoluteLayout>

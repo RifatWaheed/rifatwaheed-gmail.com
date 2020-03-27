@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimaryDark">
+
+        <AbsoluteLayout
+            android:layout_width="411dp"
+            android:layout_height="479dp"
+            android:layout_x="0dp"
+            android:layout_y="58dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_x="49dp"
+                android:layout_y="137dp"
+
+                android:gravity="left"
+                android:text="RIGHT ANSWER"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="88dp"
+                android:layout_y="307dp"
+
+                android:gravity="left"
+                android:text="You have won :"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/money_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="218dp"
+                android:layout_y="296dp"
+                android:editable="false"
+                android:gravity="left"
+                android:text="40000"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="280dp"
+                android:layout_y="306dp"
+
+                android:gravity="left"
+                android:text="$"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="216dp"
+                android:layout_height="287dp"
+                android:layout_x="195dp"
+                android:layout_y="4dp"
+                android:src="@drawable/ab"
+
+                />
+
+
+            <Button
+                android:id="@+id/nextButton1"
+                android:layout_width="153dp"
+                android:layout_height="36dp"
+
+                android:layout_x="125dp"
+                android:layout_y="399dp"
+                android:background="@drawable/rounded_corner"
+                android:stateListAnimator="@null"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+                app:layout_constraintVertical_bias="0.125" />
+
+        </AbsoluteLayout>
+
+    </AbsoluteLayout>
+
+
+</AbsoluteLayout>

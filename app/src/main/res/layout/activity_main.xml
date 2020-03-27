@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_y="0dp"
+
+        android:background="@color/colorPrimaryDark" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_x="0dp"
+        android:layout_y="42dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/kbcback" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="411dp"
+        android:layout_height="93dp"
+        android:layout_x="0dp"
+        android:layout_y="237dp"
+        android:background="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="158dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="KBC "
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="197dp"
+        android:layout_height="67dp"
+
+        android:layout_x="106dp"
+        android:layout_y="368dp"
+        android:background="@drawable/rounded_corner"
+        android:stateListAnimator="@null"
+        android:text="play"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="197dp"
+        android:layout_height="67dp"
+
+        android:layout_x="107dp"
+        android:layout_y="479dp"
+        android:background="@drawable/rounded_corner"
+        android:stateListAnimator="@null"
+        android:text="quit"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.125"
+        android:onClick="clickexit1"
+        />
+
+
+</AbsoluteLayout>
